@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neveel Hingu</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navbar Section -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" style="margin-left: 1.1%;" href="#">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="hero-content">
+            <h1 class="hero-title">Akhil sharma</h1>
+            <p class="hero-description">Web Developer</p>
+            <div class="hero-buttons">
+              <a href="#portfolio" class="btn btn-primary">Portfolio</a>
+              <a href="#contact" class="btn btn-secondary">Contact</a>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="hero-image">
+            <img src="C:\Users\admin\Pictures\akhil.jpg" alt="Profile Image" class="profile-image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- About Section -->
+<section id="about">
+  <div class="container">
+    <div class="section-heading">
+      <h2>About Me</h2>
+      <p>I'm a passionate Web Developer with expertise in web development and a focus on creating exceptional user experiences. I have a strong foundation in both front-end and back-end technologies, allowing me to develop robust and dynamic web applications.</p>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="studying.jpg" class="img-fluid profile-image" alt="Profile Image">
+      </div>
+      <div class="col-md-6">
+        <p>As a dedicated professional, I thrive on tackling challenging projects and finding innovative solutions. With a keen eye for detail and a passion for clean code, I strive to deliver high-quality results that exceed client expectations.</p>
+        <p>My expertise includes front-end technologies such as HTML, CSS, and JavaScript, along with frameworks like React and Angular. On the back-end, I have experience working with Node.js and Express.js, as well as databases like MongoDB and MySQL.</p>
+        <p>Continuously learning and staying up-to-date with the latest industry trends, I am always eager to expand my skill set and explore new technologies. I am confident in my ability to collaborate effectively in cross-functional teams and deliver outstanding projects.</p>
+        <p>If you're looking for a dedicated and skilled Web Developer who can bring your ideas to life, I would love to connect with you.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="section">
+    <div class="container">
+      <div class="section-heading">
+        <h2 class="section-title">Portfolio</h2>
+        <p class="section-description">Check out some of my projects</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="project1.jpg" alt="Project Image" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">Financial Management Web App which secure transaction</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="project2.jpg" alt="Project Image" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">Download videos in multiple formats with ease.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="project3.jpg" alt="Project Image" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text">Automation Excel workbook using Python3</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-container">
+      <div class="contact-form">
+        <h2>Contact Me</h2>
+        <form id="contact-form" method="POST" action="#">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="contact-details">
+        <h2>Contact Details</h2>
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <div class="contact-text">
+            <h4>Email</h4>
+            <p><a href="mailto:akhilsharma112004@gmail.com">akhilsharma112004@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <div class="contact-text">
+            <h4>Phone</h4>
+            <p><a href="tel:+14375577712">+1 (437) 5577712</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <p class="footer-text">© 2023 Akhil sharma. All rights reserved.</p>
+        </div>
+        <div class="col-lg-6">
+         
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
